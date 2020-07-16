@@ -14,24 +14,24 @@ router.get('/', function(req, res, next) {
 
 router.get('/questions', function(req, res, next) {
     let questions = getQuestions();
-    console.log(questions)
     res.send(questions.questions);
 });
 
-router.get('/questions:id', function(req, res, next) {
-    res.send('this is one specific question');
-});
+//TBD
+// router.get('/questions:id', function(req, res, next) {
+//     res.send('this is one specific question');
+// });
 
-router.post('/questions', function(req, res, next) {
-    res.send('This is the post route');
-});
+// router.post('/questions', function(req, res, next) {
+//     res.send('This is the post route');
+// });
 
-router.put('/questions:id', function(req, res, next) {
-    res.send('This is the put route');
-});
+// router.put('/questions:id', function(req, res, next) {
+//     res.send('This is the put route');
+// });
 
-router.get('/questions:id', function(req, res, next) {
-    res.send('This is the delete route');
-});
+// router.get('/questions:id', function(req, res, next) {
+//     res.send('This is the delete route');
+// });
 
 module.exports = router;

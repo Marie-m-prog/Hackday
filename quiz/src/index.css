@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.quizAnswer {
+  min-width: 48%;
+  margin: 1% auto;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: lightsteelblue;
+  box-shadow: 6px 6px 15px -12px rgb(71,71,71);
+}
+
+.quizAnswer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 6px 11px 23px -12px rgb(71,71,71);
+}
+
+.selected {
+  background-color: cornflowerblue;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: 0 auto;
+}

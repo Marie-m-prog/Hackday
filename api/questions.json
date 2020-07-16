@@ -1,8 +1,33 @@
 {"questions": [
-    {"id": "1", "question": "What is Daniels favorite icecream?"},
-    {"id": "2", "question": "What instrument does Marcus play?"},
-    {"id": "3", "question": "Which special requirement did 404 Coders get for their final project?"},
-    {"id": "4", "question": "Which saltee is also a pilot?"},
-    {"id": "5", "question": "How many nationalities do we have in the course?"}
+    {
+      "id": "1", 
+      "question": "What instrument does Marcus (The Hammer) play?",
+      "answers": ["French Horn", "Tuba", "Trombone", "Euphonium"],
+      "correct": "Euphonium"
+    },
+    {
+      "id": "2", 
+      "question": "Which special requirement did R2D2 get for their final project?",
+      "answers": ["Write in Typescript", "Utilize WebRTC", "Implement GraphQL", "Make use of Web Sockets"],
+      "correct": "Implement GraphQL"
+    },
+    {
+      "id": "3", 
+      "question": "R2D2 stands for:",
+      "answers": ["Red Rubber Ducks Duo", "Rod Rubber Ducks Duo", "Rad Rubber Ducks Duo", "Rud Rubber Ducks Duo"],
+      "correct": "Rad Rubber Ducks Duo"
+    },
+    {
+      "id": "4", 
+      "question": "How many nationalities are represented in our class?",
+      "answers": ["8", "10", "12", "14"],
+      "correct": "12"
+    },
+    {
+      "id": "5", 
+      "question": "What is Daniels favorite icecream?",
+      "answers": ["Chocolate", "Orange Cognac?", "Pistachio", "Rum & Cola"],
+      "correct": "Orange Cognac?"
+    }
   ]
 }
