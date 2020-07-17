@@ -3,6 +3,7 @@ import Answers from './Answers';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import meme from "./good-job-meme.jpg"
+import youTriedImg from "./you-tried.jpg"
 
 class Quiz extends React.Component {
   constructor(props) {
@@ -101,7 +102,7 @@ class Quiz extends React.Component {
             <h2>Your Score: {score} points</h2>
             <h2>Thank you for playing!</h2>
           </Jumbotron>
-          {score === 5 ? <img alt="" src={meme}></img> : <img alt="" src="https://static1.fjcdn.com/comments/Better+luck+next+time+_accc08a8daa58b8801725a8dc087ec9c.jpg"></img>}
+          {score === 5 ? <img alt="" src={meme}></img> : <img alt="" src={youTriedImg}></img>}
         </div>
       )
     }
