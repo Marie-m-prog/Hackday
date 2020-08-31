@@ -9,7 +9,7 @@ class App extends React.Component {
      };
   }
   async callAPI() {
-    await fetch('/api/questions')
+    await fetch('/myAPI/questions')
       .then(res => res.text())
       .then(res => this.setState({ apiQuestions: JSON.parse(res) }));
   }
