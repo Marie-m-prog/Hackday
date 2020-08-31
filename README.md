@@ -1,9 +1,5 @@
 # Hackday
-My project for the hackday at &lt;salt/>
+A small quiz made during the one-day hackday at &lt;salt/>
 
 ## Run the project
-To run the project, clone the repository and install the dependencies for both the api and client (quiz).
-
-Both the server for the client and the api needs to be running. 
-
-Run the server for the api and client by writing "npm start".
+See the program running, and see how many correct answers you can get at https://hackday-quiz.herokuapp.com/
